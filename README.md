@@ -35,7 +35,13 @@ It's a separate npm project and it was created using `create-react-app`, so this
 
 ### Deploy Token to Hardhat Network
 
-After cloning the repository, install dependencies in the root directory:
+After cloning the repository, also pull git submodules:
+
+```
+git submodule update --init
+```
+
+Install dependencies in the root directory:
 
 ```
 npm install
